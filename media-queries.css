@@ -129,6 +129,7 @@
   }
   .contact-info {
     font-size: 0.8rem;
+    height: auto;
   }
   .contact-info img.tech-icon {
     width: 25px;
