@@ -22,7 +22,8 @@ body {
   display: none;
 }
 
-.nav-container .default-nav, .nav-container .responsive-nav {
+.nav-container .default-nav,
+.nav-container .responsive-nav {
   justify-content: row;
   align-items: center;
   border: 3px solid rgb(214, 214, 214);
@@ -52,7 +53,6 @@ body {
 }
 
 .home-section {
-  /* background-color: red; */
   height: 100vh;
   padding-top: 3rem;
   display: grid;
@@ -71,16 +71,16 @@ body {
   box-shadow: -1px -1px 9px -1px rgba(184, 184, 184, 1);
 }
 
-.cutout-img {
-  position: relative;
-  height: 100%;
-  left: -10rem;
-}
 .content {
   position: absolute;
   left: 40%;
   top: 25rem;
   width: 800px;
+}
+.cutout-img {
+  position: relative;
+  height: 100%;
+  left: -10rem;
 }
 .title {
   display: flex;
@@ -332,7 +332,8 @@ body {
   height: 200px;
 }
 
-.contact-info a, .contact-info p {
+.contact-info a,
+.contact-info p {
   display: flex;
   justify-content: center;
   align-items: center;

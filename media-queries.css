@@ -12,4 +12,29 @@
     .nav-container ul li a {
         padding: 1rem 1.2rem;
     }
+
+    .cutout-img {
+        left: -15rem;
+    }
+    .content {
+        margin-top: 2rem;
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    #header {
+        font-size: 1.5rem;
+    }
+    .blinking-cursor {
+        font-size: 2rem;
+    }
+    .message {
+        line-height: 1.2rem;
+        font-size: 0.8rem;
+        padding: 0 15px;
+        text-align: center;
+    }
   }
