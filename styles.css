@@ -335,7 +335,7 @@ body {
 }
 
 .contact-info a,
-.contact-info p {
+.contact-info div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -364,8 +364,6 @@ body {
   width: 400px;
   height: 450px;
   background-image: url(./images/contact-img.jpg);
-  background-position: center;
-  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
 }

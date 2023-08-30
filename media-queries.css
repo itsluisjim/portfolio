@@ -113,4 +113,26 @@
   .project-footer {
     margin-top: 0.7rem;
   }
+
+  .contact-container {
+    flex-direction: column;
+    gap: 0;
+  }
+  .contact-container .square-pic {
+    margin-top: 2rem;
+    width: 90%;
+    height: 100%;
+    background-position: 20% 30%;
+  }
+  .contact-header {
+    font-size: 1.5rem;
+  }
+  .contact-info {
+    font-size: 0.8rem;
+  }
+  .contact-info img.tech-icon {
+    width: 25px;
+    height: 25px;
+  }
+  
 }
