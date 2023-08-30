@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media-queries.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <script src="https://kit.fontawesome.com/2735052018.js" crossorigin="anonymous"></script>
     <title>Luis' Web Portfolio</title>
   </head>
   <body>
@@ -16,12 +18,20 @@
       class="nav-container fade-element animate__animated animate__fadeIn"
       id="elementToFade"
     >
-      <ul>
+      <ul class="default-nav">
         <li><a href="#home-section">Home</a></li>
         <li><a href="#about-section">About</a></li>
-        <li><a href="#tech-section">Tech Stack</a></li>
+        <li><a href="#tech-section">Tech</a></li>
         <li><a href="#project-section">Projects</a></li>
         <li><a href="#contact-section">Contact</a></li>
+      </ul>
+
+      <ul class="responsive-nav">
+        <li><a href="#home-section"><i class="fa-solid fa-house"></i></a></li>
+        <li><a href="#about-section"><i class="fa-solid fa-user"></i></a></li>
+        <li><a href="#tech-section"><i class="fa-solid fa-code"></i></a></li>
+        <li><a href="#project-section"><i class="fa-solid fa-folder-open"></i></a></li>
+        <li><a href="#contact-section"><i class="fa-solid fa-phone"></i></a></li>
       </ul>
     </nav>
 

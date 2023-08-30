@@ -15,8 +15,14 @@ body {
   align-items: center;
 }
 
-.nav-container ul {
+.default-nav {
   display: flex;
+}
+.responsive-nav {
+  display: none;
+}
+
+.nav-container .default-nav, .nav-container .responsive-nav {
   justify-content: row;
   align-items: center;
   border: 3px solid rgb(214, 214, 214);
