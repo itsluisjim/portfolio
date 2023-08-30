@@ -48,4 +48,21 @@
         padding: 0 15px;
         text-align: center;
     }
+
+    .flex-center-reverse {
+        flex-direction: column;
+
+    }
+    .vector-img-container img {
+        margin-top: 8%;
+        width: 50%;
+    }
+
+    .about-me-message {
+        width: auto;
+        padding: 1.5rem;
+        border: none;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
   }
