@@ -1,7 +1,4 @@
-/* X-Small */
-/* No specific class needed as it's the default styling */
 @media (max-width: 576px) {
-  /* Add your styles for X-Small screens here */
   .responsive-nav {
     display: flex;
   }
