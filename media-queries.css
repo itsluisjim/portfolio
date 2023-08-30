@@ -1,4 +1,7 @@
 @media (max-width: 576px) {
+    .home-section {
+        padding-top: 2rem;
+    }
   .responsive-nav {
     display: flex;
   }
