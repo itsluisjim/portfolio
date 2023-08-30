@@ -12,9 +12,20 @@
     .nav-container ul li a {
         padding: 1rem 1.2rem;
     }
+    .default-cutout {
+        display: none;
+    }
+    .responsive-cutout {
+        margin-top: 3rem;
+        display: block;
+        width: 250px;
+        height: 350px;
 
+    }
     .cutout-img {
-        left: -15rem;
+        position: static;
+        width: 500px;
+        object-fit: cover;
     }
     .content {
         margin-top: 2rem;

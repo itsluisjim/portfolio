@@ -77,6 +77,9 @@ body {
   top: 25rem;
   width: 800px;
 }
+.responsive-cutout {
+  display: none;
+}
 .cutout-img {
   position: relative;
   height: 100%;
