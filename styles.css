@@ -169,7 +169,6 @@ body {
   font-weight: 900;
 }
 .icon-container {
-  /* width: 80%; */
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
