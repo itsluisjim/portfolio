@@ -20,6 +20,8 @@
     <nav
       class="nav-container fade-element animate__animated animate__fadeIn"
       id="elementToFade"
+      role="navigation"
+      aria-label="Main Navigation"
     >
       <ul class="default-nav">
         <li><a href="#home-section">Home</a></li>
@@ -29,7 +31,7 @@
         <li><a href="#contact-section">Contact</a></li>
       </ul>
 
-      <ul class="responsive-nav">
+      <ul class="responsive-nav" aria-label="Responsive Navigation">
         <li>
           <a href="#home-section"><i class="fa-solid fa-house"></i></a>
         </li>
@@ -48,20 +50,20 @@
       </ul>
     </nav>
 
-    <div class="home-section" id="home-section">
+    <section class="home-section" id="home-section">
       <div class="card">
         <div
           class="animate__animated animate__fadeIn responsive-cutout"
         >
           <img
             src="./images/cutout-img.png"
-            alt="image of luis"
+            alt="A cutout of Luis in a blue suit with a red tie."
             class="responsive-img"
           />
         </div>
         <img
           src="./images/cutout-img.png"
-          alt="A cutout of Luis in a blue suit with a red tie"
+          alt="A cutout of Luis in a blue suit with a red tie."
           class="animate__animated animate__fadeIn default-cutout"
         />
         <div class="text-content">
@@ -77,12 +79,12 @@
           </p>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="about-section" id="about-section">
+    <section class="about-section" id="about-section">
       <div class="card card-white">
         <div class="vector-img-container">
-          <img src="./images/vector.jpg" alt="programmer icon" />
+          <img src="./images/vector.jpg" alt="programmer icon from vecteezy.com" />
           <a
             href="https://www.vecteezy.com/free-vector/programming"
             id="image-creds"
@@ -97,15 +99,15 @@
           contribute to the world of web development as a front-end developer.
         </p>
       </div>
-    </div>
+    </section>
 
-    <div class="tech-section" id="tech-section">
+    <section class="tech-section" id="tech-section">
       <div class="card">
         <h1 id="tech-stack-title">Technology Stack</h1>
 
         <div class="icon-container">
           <div class="tech-card">
-            <img class="icon" src="./icons/html-5.svg" alt="Language Icon" />
+            <img class="icon" src="./icons/html-5.svg" alt="HTML Icon" />
             <div class="bar">
               <div class="progress-bar-label">
                 <span>Beginner</span>
@@ -117,7 +119,7 @@
             </div>
           </div>
           <div class="tech-card">
-            <img src="./icons/css-3.svg" alt="css icon" />
+            <img src="./icons/css-3.svg" alt="CSS icon" />
             <div class="progress-bar-label">
               <div class="bar">
                 <div class="progress-bar-label">
@@ -131,7 +133,7 @@
             </div>
           </div>
           <div class="tech-card">
-            <img src="./icons/javascript.svg" alt="javascript icon" />
+            <img src="./icons/javascript.svg" alt="Javascript icon" />
             <div class="bar">
               <div class="progress-bar-label">
                 <span>Beginner</span>
@@ -143,7 +145,7 @@
             </div>
           </div>
           <div class="tech-card">
-            <img src="./icons/bootstrap.svg" alt="bootstrap icon" />
+            <img src="./icons/bootstrap.svg" alt="Bootstrap icon" />
             <div class="bar">
               <div class="progress-bar-label">
                 <span>Beginner</span>
@@ -155,7 +157,7 @@
             </div>
           </div>
           <div class="tech-card">
-            <img src="./icons/react.svg" alt="react icon" />
+            <img src="./icons/react.svg" alt="React icon" />
             <div class="bar">
               <div class="progress-bar-label">
                 <span>Beginner</span>
@@ -167,7 +169,7 @@
             </div>
           </div>
           <div class="tech-card">
-            <img src="./icons/angular-icon.svg" alt="angular icon" />
+            <img src="./icons/angular-icon.svg" alt="Angular icon" />
             <div class="bar">
               <div class="progress-bar-label">
                 <span>Beginner</span>
@@ -179,7 +181,7 @@
             </div>
           </div>
           <div class="tech-card">
-            <img src="./icons/java.svg" alt="java icon" />
+            <img src="./icons/java.svg" alt="Java icon" />
             <div class="bar">
               <div class="progress-bar-label">
                 <span>Beginner</span>
@@ -191,7 +193,7 @@
             </div>
           </div>
           <div class="tech-card">
-            <img src="./icons/mysql.svg" alt="mysql icon" />
+            <img src="./icons/mysql.svg" alt="Mysql icon" />
             <div class="bar">
               <div class="progress-bar-label">
                 <span>Beginner</span>
@@ -204,9 +206,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="project-section" id="project-section">
+    <section class="project-section" id="project-section">
       <div class="card card-white">
         <div class="projects-header">Projects</div>
         <div class="projects-container">
@@ -219,7 +221,7 @@
               <img
                 class="project-image"
                 src="./images/jagtech.png"
-                alt="capstone project, ecommerce jagtech website"
+                alt="University Capstone Project, E-Commerce Jagtech website"
               />
               <div class="project-details">
                 <div class="project-title">JagTech E-Commerce</div>
@@ -228,15 +230,15 @@
                   inventory from the IT department at an affordable price.
                 </div>
                 <div class="tech-icons">
-                  <img class="tech-icon" src="./icons/html-5.svg" alt="HTML" />
-                  <img class="tech-icon" src="./icons/css-3.svg" alt="CSS" />
+                  <img class="tech-icon" src="./icons/html-5.svg" alt="HTML icon" />
+                  <img class="tech-icon" src="./icons/css-3.svg" alt="CSS icon" />
                   <img
                     class="tech-icon"
                     src="./icons/javascript.svg"
                     alt="JavaScript"
                   />
-                  <img class="tech-icon" src="./icons/php.svg" alt="php" />
-                  <img class="tech-icon" src="./icons/mysql.svg" alt="mysql" />
+                  <img class="tech-icon" src="./icons/php.svg" alt=PHP icon" />
+                  <img class="tech-icon" src="./icons/mysql.svg" alt="Mysql icon" />
                 </div>
               </div>
             </div>
@@ -259,14 +261,14 @@
                   API to dynamically fetch randomized questions.
                 </div>
                 <div class="tech-icons">
-                  <img class="tech-icon" src="./icons/html-5.svg" alt="HTML" />
-                  <img class="tech-icon" src="./icons/css-3.svg" alt="CSS" />
+                  <img class="tech-icon" src="./icons/html-5.svg" alt="HTML icon" />
+                  <img class="tech-icon" src="./icons/css-3.svg" alt="CSS icon" />
                   <img
                     class="tech-icon"
                     src="./icons/javascript.svg"
                     alt="JavaScript"
                   />
-                  <img class="tech-icon" src="./icons/react.svg" alt="React" />
+                  <img class="tech-icon" src="./icons/react.svg" alt="React icon" />
                 </div>
               </div>
             </div>
@@ -289,14 +291,14 @@
                   Git flavored markdown and render it as HTML.
                 </div>
                 <div class="tech-icons">
-                  <img class="tech-icon" src="./icons/html-5.svg" alt="HTML" />
-                  <img class="tech-icon" src="./icons/css-3.svg" alt="CSS" />
+                  <img class="tech-icon" src="./icons/html-5.svg" alt="HTML icon" />
+                  <img class="tech-icon" src="./icons/css-3.svg" alt="CSS icon" />
                   <img
                     class="tech-icon"
                     src="./icons/javascript.svg"
                     alt="JavaScript"
                   />
-                  <img class="tech-icon" src="./icons/react.svg" alt="React" />
+                  <img class="tech-icon" src="./icons/react.svg" alt="React icon" />
                 </div>
               </div>
             </div>
@@ -308,14 +310,14 @@
             <img
               class="tech-icon"
               src="./icons/github-icon.svg"
-              alt="github icon"
+              alt="Github icon"
             />
           </a>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="contact-section" id="contact-section">
+    <section class="contact-section" id="contact-section">
       <div class="card">
         <div class="contact-container">
           <div class="square-pic"></div>
@@ -326,7 +328,7 @@
                 <img
                   class="tech-icon"
                   src="./icons/google-gmail.svg"
-                  alt="Email Icon"
+                  alt="Gmail Icon"
                 />
                 : Jimenezluis.lj85@gmail.com
                 <span class="copy-icon" onclick="copyEmailToClipboard()"
@@ -340,21 +342,21 @@
                 <img
                   class="tech-icon"
                   src="./icons/linkedin-icon.svg"
-                  alt="linkedin Icon"
+                  alt="Linkedin Icon"
                 />: Luis Jimenez
               </a>
               <a href="https://github.com/itsluisjim" target="_blank">
                 <img
                   class="tech-icon"
                   src="./icons/github-icon.svg"
-                  alt="github Icon"
+                  alt="Github Icon"
                 />: Itsluisjim
               </a>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <script src="./script.js"></script>
   </body>
