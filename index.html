@@ -10,7 +10,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <script src="https://kit.fontawesome.com/2735052018.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/2735052018.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Luis' Web Portfolio</title>
   </head>
   <body>
@@ -27,17 +30,41 @@
       </ul>
 
       <ul class="responsive-nav">
-        <li><a href="#home-section"><i class="fa-solid fa-house"></i></a></li>
-        <li><a href="#about-section"><i class="fa-solid fa-user"></i></a></li>
-        <li><a href="#tech-section"><i class="fa-solid fa-code"></i></a></li>
-        <li><a href="#project-section"><i class="fa-solid fa-folder-open"></i></a></li>
-        <li><a href="#contact-section"><i class="fa-solid fa-phone"></i></a></li>
+        <li>
+          <a href="#home-section"><i class="fa-solid fa-house"></i></a>
+        </li>
+        <li>
+          <a href="#about-section"><i class="fa-solid fa-user"></i></a>
+        </li>
+        <li>
+          <a href="#tech-section"><i class="fa-solid fa-code"></i></a>
+        </li>
+        <li>
+          <a href="#project-section"><i class="fa-solid fa-folder-open"></i></a>
+        </li>
+        <li>
+          <a href="#contact-section"><i class="fa-solid fa-phone"></i></a>
+        </li>
       </ul>
     </nav>
 
     <div class="home-section" id="home-section">
       <div class="card">
-        <div class="content">
+        <div
+          class="animate__animated animate__fadeIn responsive-cutout"
+        >
+          <img
+            src="./images/cutout-img.png"
+            alt="image of luis"
+            class="responsive-img"
+          />
+        </div>
+        <img
+          src="./images/cutout-img.png"
+          alt="A cutout of Luis in a blue suit with a red tie"
+          class="animate__animated animate__fadeIn default-cutout"
+        />
+        <div class="text-content">
           <div class="title">
             <span id="header"></span>
             <span id="blinking-cursor" class="blinking-cursor">|</span>
@@ -48,18 +75,12 @@
             Bringing ideas to life with pixels, code, and a passion for frontend
             design.
           </p>
-          <div class="square-pic animate__animated animate__fadeIn responsive-cutout"></div>
         </div>
-        <img
-          src="./images/cutout-img.png"
-          alt="A cutout of Luis in a blue suit with a red tie"
-          class="cutout-img animate__animated animate__fadeIn default-cutout"
-        />
       </div>
     </div>
 
     <div class="about-section" id="about-section">
-      <div class="card flex-center-reverse card-white">
+      <div class="card card-white">
         <div class="vector-img-container">
           <img src="./images/vector.jpg" alt="programmer icon" />
           <a
@@ -187,71 +208,110 @@
 
     <div class="project-section" id="project-section">
       <div class="card card-white">
-        <div class="projects-header">
-          Projects
-        </div>
+        <div class="projects-header">Projects</div>
         <div class="projects-container">
-          <a href="https://github.com/itsluisjim/ecomm"  target="_blank" class="remove-decoration">
+          <a
+            href="https://github.com/itsluisjim/ecomm"
+            target="_blank"
+            class="remove-decoration"
+          >
             <div class="project-card">
-              <img class="project-image" src="./images/jagtech.png" alt="capstone project, ecommerce jagtech website">
+              <img
+                class="project-image"
+                src="./images/jagtech.png"
+                alt="capstone project, ecommerce jagtech website"
+              />
               <div class="project-details">
                 <div class="project-title">JagTech E-Commerce</div>
                 <div class="project-description">
-                  The proposed system will allow students to purchase surplused inventory from the IT department at an affordable price.
+                  The proposed system will allow students to purchase surplused
+                  inventory from the IT department at an affordable price.
                 </div>
                 <div class="tech-icons">
-                  <img class="tech-icon" src="./icons/html-5.svg" alt="HTML">
-                  <img class="tech-icon" src="./icons/css-3.svg" alt="CSS">
-                  <img class="tech-icon" src="./icons/javascript.svg" alt="JavaScript">
-                  <img class="tech-icon" src="./icons/php.svg" alt="php">
-                  <img class="tech-icon" src="./icons/mysql.svg" alt="mysql">
+                  <img class="tech-icon" src="./icons/html-5.svg" alt="HTML" />
+                  <img class="tech-icon" src="./icons/css-3.svg" alt="CSS" />
+                  <img
+                    class="tech-icon"
+                    src="./icons/javascript.svg"
+                    alt="JavaScript"
+                  />
+                  <img class="tech-icon" src="./icons/php.svg" alt="php" />
+                  <img class="tech-icon" src="./icons/mysql.svg" alt="mysql" />
                 </div>
               </div>
             </div>
           </a>
-          <a href="https://itsluisjim.github.io/Quizzical"  target="_blank" class="remove-decoration">
+          <a
+            href="https://itsluisjim.github.io/Quizzical"
+            target="_blank"
+            class="remove-decoration"
+          >
             <div class="project-card">
-              <img class="project-image" src="./images/quizzical.png" alt="A quiz game">
+              <img
+                class="project-image"
+                src="./images/quizzical.png"
+                alt="A quiz game"
+              />
               <div class="project-details">
                 <div class="project-title">Quizzical</div>
                 <div class="project-description">
-                  The Quizzical App is a React-based project that leverages an API to dynamically fetch randomized questions.
+                  The Quizzical App is a React-based project that leverages an
+                  API to dynamically fetch randomized questions.
                 </div>
                 <div class="tech-icons">
-                  <img class="tech-icon" src="./icons/html-5.svg" alt="HTML">
-                  <img class="tech-icon" src="./icons/css-3.svg" alt="CSS">
-                  <img class="tech-icon" src="./icons/javascript.svg" alt="JavaScript">
-                  <img class="tech-icon" src="./icons/react.svg" alt="React">
+                  <img class="tech-icon" src="./icons/html-5.svg" alt="HTML" />
+                  <img class="tech-icon" src="./icons/css-3.svg" alt="CSS" />
+                  <img
+                    class="tech-icon"
+                    src="./icons/javascript.svg"
+                    alt="JavaScript"
+                  />
+                  <img class="tech-icon" src="./icons/react.svg" alt="React" />
                 </div>
               </div>
             </div>
           </a>
-          <a href="https://itsluisjim.github.io/FreeCodeCamp-MarkdownPreviewer" target="_blank" class="remove-decoration">
-              <div class="project-card">
-                <img class="project-image" src="./images/markdown.png" alt="Markdown Previewer">
-                <div class="project-details">
-                  <div class="project-title">Markdown Previewer</div>
-                  <div class="project-description">
-                    The objective of this project was to build a editor that takes Git flavored markdown and render it as HTML.
-                  </div>
-                  <div class="tech-icons">
-                    <img class="tech-icon" src="./icons/html-5.svg" alt="HTML">
-                    <img class="tech-icon" src="./icons/css-3.svg" alt="CSS">
-                    <img class="tech-icon" src="./icons/javascript.svg" alt="JavaScript">
-                    <img class="tech-icon" src="./icons/react.svg" alt="React">
-                  </div>
+          <a
+            href="https://itsluisjim.github.io/FreeCodeCamp-MarkdownPreviewer"
+            target="_blank"
+            class="remove-decoration"
+          >
+            <div class="project-card">
+              <img
+                class="project-image"
+                src="./images/markdown.png"
+                alt="Markdown Previewer"
+              />
+              <div class="project-details">
+                <div class="project-title">Markdown Previewer</div>
+                <div class="project-description">
+                  The objective of this project was to build a editor that takes
+                  Git flavored markdown and render it as HTML.
+                </div>
+                <div class="tech-icons">
+                  <img class="tech-icon" src="./icons/html-5.svg" alt="HTML" />
+                  <img class="tech-icon" src="./icons/css-3.svg" alt="CSS" />
+                  <img
+                    class="tech-icon"
+                    src="./icons/javascript.svg"
+                    alt="JavaScript"
+                  />
+                  <img class="tech-icon" src="./icons/react.svg" alt="React" />
                 </div>
               </div>
+            </div>
           </a>
         </div>
-          <div class="project-footer">
-            <span>
-              Find more on Gitub ->
-            </span>
-            <a href="https://www.github.com/itsluisjim" class="remove-decoration">
-              <img class="tech-icon" src="./icons/github-icon.svg" alt="github icon">
-            </a>
-          </div>
+        <div class="project-footer">
+          <span> Find more on Gitub -> </span>
+          <a href="https://www.github.com/itsluisjim" class="remove-decoration">
+            <img
+              class="tech-icon"
+              src="./icons/github-icon.svg"
+              alt="github icon"
+            />
+          </a>
+        </div>
       </div>
     </div>
 
@@ -263,17 +323,32 @@
             <div class="contact-info">
               <p class="contact-header">Contact Me</p>
               <div>
-                <img class="tech-icon" src="./icons/google-gmail.svg" alt="Email Icon">
+                <img
+                  class="tech-icon"
+                  src="./icons/google-gmail.svg"
+                  alt="Email Icon"
+                />
                 : Jimenezluis.lj85@gmail.com
-                <span class="copy-icon" onclick="copyEmailToClipboard()">📋</span>
+                <span class="copy-icon" onclick="copyEmailToClipboard()"
+                  >📋</span
+                >
               </div>
-              <a href="https://www.linkedin.com/in/luis-jimenez-75097216a/" target="_blank">
-                <img class="tech-icon" src="./icons/linkedin-icon.svg" alt="linkedin Icon">:
-                Luis Jimenez
+              <a
+                href="https://www.linkedin.com/in/luis-jimenez-75097216a/"
+                target="_blank"
+              >
+                <img
+                  class="tech-icon"
+                  src="./icons/linkedin-icon.svg"
+                  alt="linkedin Icon"
+                />: Luis Jimenez
               </a>
               <a href="https://github.com/itsluisjim" target="_blank">
-                <img class="tech-icon" src="./icons/github-icon.svg" alt="github Icon">:
-                Itsluisjim
+                <img
+                  class="tech-icon"
+                  src="./icons/github-icon.svg"
+                  alt="github Icon"
+                />: Itsluisjim
               </a>
             </div>
           </div>

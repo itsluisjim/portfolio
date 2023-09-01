@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+}
 body {
   width: 100vw;
   height: 100vh;
@@ -61,6 +64,9 @@ body {
 
 .card {
   overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 30px;
   width: 95vw;
   height: 85vh;
   background-color: rgb(244, 244, 244);
@@ -71,26 +77,27 @@ body {
   box-shadow: -1px -1px 9px -1px rgba(184, 184, 184, 1);
 }
 
-.content {
-  position: absolute;
-  left: 40%;
-  top: 25rem;
-  width: 800px;
+.default-cutout {
+  height: 100%;
+  object-fit: contain;
+  flex: 1 2;
 }
 .responsive-cutout {
   display: none;
 }
-.cutout-img {
-  position: relative;
-  height: 100%;
-  left: -10rem;
-}
-.title {
+
+.text-content {
+  flex: 2 1;
+  width: 100%;
+  padding: 30px 0;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
 }
+
 #header {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 900;
 }
 
@@ -156,7 +163,7 @@ body {
   padding: 20px 0 20px 15px;
 }
 
-.flex-center-reverse {
+.about-section .card {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start;
@@ -357,12 +364,13 @@ body {
   cursor: pointer;
 }
 
-.square-pic {
+/* .square-pic {
   border-radius: 15px;
   border: 2px solid #ccc;
-  width: 400px;
-  height: 450px;
-  background-image: url(./images/contact-img.jpg);
+  /* width: 400px;
+  height: 450px; */
+  /* background-image: url(./images/contact-img.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-position: center;
+  background-size: cover; */
+/* } */
