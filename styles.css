@@ -220,6 +220,10 @@ body {
   background-color: white;
 }
 
+.project-section .card {
+  flex-direction: column;
+}
+
 .projects-container {
   width: 100%;
   background-color: white;
@@ -238,7 +242,6 @@ body {
 
 .project-card {
   width: 350px;
-  height: 375px;
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
@@ -300,12 +303,15 @@ body {
   gap: 4px;
 }
 
+.contact-section .card {
+  justify-content: center;
+}
+
 .contact-container {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
   gap: 30px;
@@ -315,16 +321,21 @@ body {
   padding: 20px;
 }
 
-.profile-image {
-  height: 350px;
-  object-fit: cover;
-}
-
 .contact-header {
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
 
+.square-pic {
+  border-radius: 15px;
+  border: 2px solid #ccc;
+  width: 400px;
+  height: 450px;
+  background-image: url(./images/contact-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .contact-info {
   margin-top: 20px;
   display: flex;
@@ -357,14 +368,3 @@ body {
   margin-left: 10px;
   cursor: pointer;
 }
-
-/* .square-pic {
-  border-radius: 15px;
-  border: 2px solid #ccc;
-  /* width: 400px;
-  height: 450px; */
-  /* background-image: url(./images/contact-img.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
-/* } */
