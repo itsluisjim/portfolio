@@ -154,6 +154,9 @@ body {
   padding: 20px 0 20px 15px;
 }
 
+.tech-section .card {
+  flex-direction: column;
+}
 .about-section .card {
   display: flex;
   flex-direction: row-reverse;
@@ -170,7 +173,7 @@ body {
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 .icon-container img {
