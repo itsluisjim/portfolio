@@ -41,13 +41,14 @@
     font-size: 0.8rem;
     padding: 0 15px;
   }
-  
+
   .about-section .card {
     flex-direction: column;
+    height: 95vh;
   }
   .vector-img-container img {
     margin-top: 8%;
-    width: 50%;
+    width: 100%;
   }
 
   .about-me-message {
