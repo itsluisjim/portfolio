@@ -220,6 +220,10 @@ body {
   background-color: white;
 }
 
+.project-section .card {
+  flex-direction: column;
+}
+
 .projects-container {
   width: 100%;
   background-color: white;
@@ -238,7 +242,6 @@ body {
 
 .project-card {
   width: 350px;
-  height: 375px;
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
